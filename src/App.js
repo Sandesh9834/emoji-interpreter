@@ -43,7 +43,7 @@ export default function App() {
       <input placeholder="Enter Emoji" onChange={eventHandler}></input>
 
       <h4>{meaning}</h4>
-      <h3>Emojis We Knows</h3>
+      <h3>Emojis We Know</h3>
 
       {emojiWeKnow.map(function (emoji) {
         console.log(emoji);
